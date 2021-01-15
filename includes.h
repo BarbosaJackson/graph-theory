@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <cstring>
 
 #define fi first
 #define se second
