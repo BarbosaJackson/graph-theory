@@ -46,7 +46,7 @@ int main(int argc, char const *argv[]) {
 		cout << "Para executar execute: " << endl << "./exec.out [algoritmo desejado] < [entrada válida para o algoritmo]" << endl;
 		cout << "Os algoritmos desejados podem ser: " << endl << "  - fordfulkerson" << endl << "  - dijkstra" << endl << "  - prim" << endl << "  - hopcroftKarp" << endl;
 	} else {
-		cout << "argumentos inválidos!!" << endl << "para ajuda execute: ./exec.out help" << endl;
+		cout << "argumentos inválidos!!" << endl << "para ajuda, execute: ./exec.out help" << endl;
 	}
 	
 	return 0;
