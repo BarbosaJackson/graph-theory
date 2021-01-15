@@ -19,7 +19,6 @@ struct Graph {
 		this->visited.clear();
 		this->visited.resize(size, false);
 		this->path.clear();
-		// this->path.resize(size, -1);
 		this->pairU.clear();
 		this->pairU.resize(size, 0);
 		this->pairV.clear();
