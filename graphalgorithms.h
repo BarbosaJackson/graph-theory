@@ -42,6 +42,7 @@ struct Graph {
 	}
 	llint dijkstra(llint source, llint target, bool is_fordFulkerson=false) {
 		this->clean(this->adjList.size());
+		this->path.resize(this->adjList.size(), -1);
 		priority_queue< pllint > pq;
 		pq.push({0, source});
 		dist[source] = 0;
